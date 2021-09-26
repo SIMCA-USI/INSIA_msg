@@ -1,0 +1,4 @@
+uint16 t_integracion 
+---
+ElemAlarmas[] lista_alarmas
+
