@@ -1,12 +1,12 @@
 string id_plataforma
 
-float64 velocidad
-float64 direccion
-string marchas
+float64 throttle
+float64 brake
+float64 steering
+string gears
 
-bool desact_parada_emergencia
-bool override
-bool b_velocidad
-bool b_direccion
-bool b_marchas
+bool b_throttle
+bool b_brake
+bool b_steering
+bool b_gears
 
