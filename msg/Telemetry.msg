@@ -1,3 +1,4 @@
+builtin_interfaces/Time stamp
 string id_plataforma
 
 float64 speed
