@@ -21,6 +21,8 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+find_package(std_msgs REQUIRED)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -37,6 +39,12 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/OpenLoop.msg"
   "msg/Telemetry.msg"
+  "msg/CAN.msg"
+  "msg/Controlador.msg"
+  "msg/StringStamped.msg"
+  "msg/CANGroup.msg"
+
+  DEPENDENCIES  std_msgs
  )
 
 ament_package()
