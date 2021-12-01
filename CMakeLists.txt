@@ -47,6 +47,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/OpenLoop.msg"
   "msg/StringStamped.msg"
   "msg/Telemetry.msg"
+  
   DEPENDENCIES  std_msgs
  )
 
