@@ -37,13 +37,16 @@ endif()
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/OpenLoop.msg"
-  "msg/Telemetry.msg"
+  "msg/BoolStamped.msg"
   "msg/CAN.msg"
-  "msg/Controlador.msg"
-  "msg/StringStamped.msg"
   "msg/CANGroup.msg"
-
+  "msg/Controlador.msg"
+  "msg/EPOSConsigna.msg"
+  "msg/EPOSDigital.msg"
+  "msg/FloatStamped.msg"
+  "msg/OpenLoop.msg"
+  "msg/StringStamped.msg"
+  "msg/Telemetry.msg"
   DEPENDENCIES  std_msgs
  )
 
