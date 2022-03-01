@@ -48,6 +48,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FloatStamped.msg"
   "msg/IntStamped.msg"
   "msg/OpenLoop.msg"
+  "msg/PetConduccion.msg"
   "msg/StringStamped.msg"
   "msg/Telemetry.msg"
   
