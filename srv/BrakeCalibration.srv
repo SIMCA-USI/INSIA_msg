@@ -1,6 +1,3 @@
-# The first line are the parameters of the request
-# The second line below the dashes is the response
-
-BoolStamped bool
+std_msgs/Header header
 ---
 IntStamped data
