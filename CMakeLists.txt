@@ -47,11 +47,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/EPOSDigital.msg"
   "msg/FloatStamped.msg"
   "msg/IntStamped.msg"
+  "msg/IOAnalogue.msg"
   "msg/OpenLoop.msg"
   "msg/PetConduccion.msg"
   "msg/StringStamped.msg"
   "msg/Telemetry.msg"
-  
+  "srv/BrakeCalibration.srv"
+
   DEPENDENCIES  std_msgs
  )
 
