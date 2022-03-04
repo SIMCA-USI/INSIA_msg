@@ -1,6 +1,6 @@
 std_msgs/Header header
 
-float64 position
+int32 position
 
 uint8 RELATIVO=00
 uint8 ABSOLUTO=01
