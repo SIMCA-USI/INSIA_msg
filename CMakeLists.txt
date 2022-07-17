@@ -56,6 +56,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Telemetry.msg"
   "srv/BrakeCalibration.srv"
 
+  "gps_msg/rmc.msg"
+  
   DEPENDENCIES  std_msgs
  )
 
