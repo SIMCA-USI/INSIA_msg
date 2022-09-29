@@ -39,6 +39,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/BoolStamped.msg"
   "msg/CAN.msg"
+  "msg/CANEthStatus.msg"
   "msg/CANGroup.msg"
   "msg/ControladorFloat.msg"
   "msg/ControladorStr.msg"
