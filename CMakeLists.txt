@@ -58,7 +58,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/BrakeCalibration.srv"
 
   "gps_msg/RMC.msg"
-  
+
+  "JKU_msgs/Joy.msg"
+
   DEPENDENCIES  std_msgs
  )
 
