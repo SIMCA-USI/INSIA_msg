@@ -1,0 +1,1 @@
+bool movement_status

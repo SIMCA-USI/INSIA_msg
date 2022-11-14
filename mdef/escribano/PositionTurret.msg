@@ -1,0 +1,2 @@
+int16 azimuth_position
+int16 elevation_position
