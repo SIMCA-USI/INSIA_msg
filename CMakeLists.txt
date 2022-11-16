@@ -53,6 +53,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MasterSwitch.msg"
   "msg/OpenLoop.msg"
   "msg/PetConduccion.msg"
+  "msg/RecCommand.msg"
   "msg/StringStamped.msg"
   "msg/Telemetry.msg"
   "srv/BrakeCalibration.srv"
