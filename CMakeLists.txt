@@ -52,6 +52,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/IOAnalogue.msg"
   "msg/MasterSwitch.msg"
   "msg/OpenLoop.msg"
+  "msg/Override.msg"
   "msg/PetConduccion.msg"
   "msg/RecCommand.msg"
   "msg/StringStamped.msg"
