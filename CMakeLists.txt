@@ -57,6 +57,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RecCommand.msg"
   "msg/StringStamped.msg"
   "msg/Telemetry.msg"
+  "msg/Telemetry2.msg"
   "srv/BrakeCalibration.srv"
 
   "msg/GestionMision.msg"
