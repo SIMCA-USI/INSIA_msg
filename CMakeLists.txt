@@ -22,6 +22,7 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -59,7 +60,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Telemetry.msg"
   "msg/Telemetry2.msg"
   "srv/BrakeCalibration.srv"
-
+  "srv/GenerateMaps.srv"
   "msg/GestionMision.msg"
   "msg/ModoMision.msg"
 
@@ -88,7 +89,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
   "JKU_msgs/Joy.msg"
 
-  DEPENDENCIES  std_msgs
+  DEPENDENCIES std_msgs
+  DEPENDENCIES geometry_msgs
+
  )
 
 ament_package()
