@@ -55,6 +55,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/OpenLoop.msg"
   "msg/Override.msg"
   "msg/PetConduccion.msg"
+  "msg/PetConduccionDevice.msg"
   "msg/Mappoint.msg"
   "msg/MapPointList.msg"
   "msg/RecCommand.msg"
@@ -89,7 +90,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
   "gps_msg/RMC.msg"
 
-  "JKU_msgs/Joy.msg"
+  "JKU_msgs/JoyJKU.msg"
 
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
