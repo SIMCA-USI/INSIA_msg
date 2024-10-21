@@ -4,6 +4,7 @@ string id_plataforma
 float64 brake
 float64 throttle
 float64 steering
+uint8 mode
 string gear
 
 bool b_brake
