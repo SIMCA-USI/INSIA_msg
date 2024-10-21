@@ -55,7 +55,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/OpenLoop.msg"
   "msg/Override.msg"
   "msg/PetConduccion.msg"
-  "msg/PetConduccionDevice.msg"
   "msg/Mappoint.msg"
   "msg/MapPointList.msg"
   "msg/RecCommand.msg"
