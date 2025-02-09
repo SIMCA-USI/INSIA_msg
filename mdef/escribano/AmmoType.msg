@@ -1,0 +1,1 @@
+string ammo_type

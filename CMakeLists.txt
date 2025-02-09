@@ -21,6 +21,9 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -35,8 +38,65 @@ endif()
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/BoolStamped.msg"
+  "msg/CAN.msg"
+  "msg/CANEthStatus.msg"
+  "msg/CANGroup.msg"
+  "msg/ControladorFloat.msg"
+  "msg/ControladorStr.msg"
+  "msg/EPOSAnalog.msg"
+  "msg/EPOSConsigna.msg"
+  "msg/EPOSDigital.msg"
+  "msg/EPOSStatus.msg"
+  "msg/FloatStamped.msg"
+  "msg/IntStamped.msg"
+  "msg/IOAnalogue.msg"
+  "msg/MasterSwitch.msg"
   "msg/OpenLoop.msg"
+  "msg/Override.msg"
+  "msg/PetConduccion.msg"
+  "msg/Mappoint.msg"
+  "msg/MapPointList.msg"
+  "msg/RecCommand.msg"
+  "msg/ReceiveMUTT.msg"
+  "msg/RequestMUTT.msg"
+  "msg/StringStamped.msg"
   "msg/Telemetry.msg"
+  "msg/Telemetry2.msg"
+  "srv/BrakeCalibration.srv"
+  "srv/GenerateMaps.srv"
+  "srv/RequestCANMessage.srv"
+  "msg/GestionMision.msg"
+  "msg/ModoMision.msg"
+
+  "mdef/escribano/Accion.msg"
+  "mdef/escribano/AmmoCount.msg"
+  "mdef/escribano/AmmoType.msg"
+  "mdef/escribano/BrakeStatus.msg"
+  "mdef/escribano/CameraSelection.msg"
+  "mdef/escribano/Designation.msg"
+  "mdef/escribano/Fase.msg"
+  "mdef/escribano/FireMode.msg"
+  "mdef/escribano/FireStatus.msg"
+  "mdef/escribano/FocusCommand.msg"
+  "mdef/escribano/LaserRange.msg"
+  "mdef/escribano/Mision.msg"
+  "mdef/escribano/Misiones.msg"
+  "mdef/escribano/MovementStatus.msg"
+  "mdef/escribano/MovementType.msg"
+  "mdef/escribano/PositionTurret.msg"
+  "mdef/escribano/Tarea.msg"
+  "mdef/escribano/TareaCdP.msg"
+  "mdef/escribano/WeaponType.msg"
+  "mdef/escribano/ZoomCommand.msg"
+
+  "gps_msg/RMC.msg"
+
+  "JKU_msgs/JoyJKU.msg"
+
+  DEPENDENCIES std_msgs
+  DEPENDENCIES geometry_msgs
+
  )
 
 ament_package()

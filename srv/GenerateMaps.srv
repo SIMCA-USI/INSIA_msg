@@ -1,0 +1,12 @@
+uint8 RAW=0
+uint8 DIST=1
+
+std_msgs/Header header
+string map
+uint8 clean_mode
+float64 distance
+bool visualize
+---
+std_msgs/Header header
+geometry_msgs/Vector3[] map
+bool status

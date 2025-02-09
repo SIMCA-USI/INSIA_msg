@@ -1,0 +1,12 @@
+std_msgs/Header header
+string timestamp
+string status
+float64 lat
+string lat_dir
+float64 lon
+string lon_dir
+float64 spd_over_grnd
+float64 true_course
+string datestamp
+string mag_variation
+string mag_var_dir

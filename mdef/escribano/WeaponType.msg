@@ -1,0 +1,1 @@
+string weapon_type
