@@ -68,6 +68,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/RequestCANMessage.srv"
   "msg/GestionMision.msg"
   "msg/ModoMision.msg"
+  "msg/SystemStatus.msg"
 
   "mdef/escribano/Accion.msg"
   "mdef/escribano/AmmoCount.msg"
