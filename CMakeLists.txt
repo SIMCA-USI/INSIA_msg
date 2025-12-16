@@ -66,6 +66,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/BrakeCalibration.srv"
   "srv/GenerateMaps.srv"
   "srv/RequestCANMessage.srv"
+  "srv/ConfirmRoute.srv"
   "msg/GestionMision.msg"
   "msg/ModoMision.msg"
   "msg/SystemStatus.msg"
