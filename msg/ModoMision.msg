@@ -5,3 +5,5 @@ uint8 FOLLOW_ME=03
 
 string id_plataforma
 uint8 modo_mision
+bool emergency_stop
+uint8[] emergency_active
