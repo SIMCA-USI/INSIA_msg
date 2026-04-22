@@ -1,5 +1,6 @@
 
 int32 rpm
+bool vehicle_ready
 float64 v_battery
 
 float64 fuel

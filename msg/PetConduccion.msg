@@ -9,5 +9,3 @@ bool b_brake
 bool b_throttle
 bool b_steering
 bool b_gear
-
-bool emergency_stop
