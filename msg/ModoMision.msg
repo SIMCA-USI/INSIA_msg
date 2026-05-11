@@ -7,3 +7,4 @@ uint8 RADIO_CONTROL=05
 
 string id_plataforma
 uint8 modo_mision
+bool emergency_stop
