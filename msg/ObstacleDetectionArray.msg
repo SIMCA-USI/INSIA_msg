@@ -1,1 +1,1 @@
-lidar_obstacle_detector_interfaces/ObstacleDetection[] obstacles
+insia_msg/ObstacleDetection[] obstacles

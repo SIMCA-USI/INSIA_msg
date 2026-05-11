@@ -70,6 +70,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ModoMision.msg"
   "srv/ConfirmRoute.srv"
   "msg/SystemStatus.msg"
+  "msg/ObstacleDetection.msg"
+  "msg/ObstacleDetectionArray.msg"
 
   "mdef/escribano/Accion.msg"
   "mdef/escribano/AmmoCount.msg"
