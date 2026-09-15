@@ -71,6 +71,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ModoMision.msg"
   "srv/ConfirmRoute.srv"
   "srv/PlanRoute.srv"
+  "srv/SaveSlamMap.srv"
+  "srv/LoadSlamMap.srv"
   "msg/SystemStatus.msg"
   "msg/ObstacleDetection.msg"
   "msg/ObstacleDetectionArray.msg"

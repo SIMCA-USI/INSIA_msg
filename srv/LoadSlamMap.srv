@@ -1,0 +1,9 @@
+string route_name
+---
+bool success
+string message
+float64 lat_offset
+float64 lon_offset
+float64 alt_offset
+float64 yaw_offset
+bool has_gps
