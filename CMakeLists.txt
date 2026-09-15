@@ -23,6 +23,7 @@ find_package(ament_cmake REQUIRED)
 
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -69,10 +70,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/GestionMision.msg"
   "msg/ModoMision.msg"
   "srv/ConfirmRoute.srv"
+  "srv/PlanRoute.srv"
   "msg/SystemStatus.msg"
   "msg/ObstacleDetection.msg"
   "msg/ObstacleDetectionArray.msg"
-
   "mdef/escribano/Accion.msg"
   "mdef/escribano/AmmoCount.msg"
   "mdef/escribano/AmmoType.msg"
@@ -100,6 +101,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
+  DEPENDENCIES sensor_msgs
 
  )
 

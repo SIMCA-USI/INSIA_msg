@@ -1,0 +1,29 @@
+# Global route planning request.
+#
+# Both points are expressed in WGS-84 geodetic coordinates. Only the latitude
+# and longitude fields are used by the planner; altitude, covariance and status
+# are ignored.
+
+sensor_msgs/NavSatFix start
+sensor_msgs/NavSatFix goal
+
+---
+
+# True when a route connecting start and goal was found.
+bool success
+
+# Human readable description of the outcome (error cause when success is false).
+string message
+
+# Ordered sequence of geodetic positions describing the optimal global path.
+# The first element is the graph node closest to `start` and the last one the
+# graph node closest to `goal`.
+sensor_msgs/NavSatFix[] route
+
+# Ordered list of the OpenStreetMap way ids traversed by the route, without
+# consecutive repetitions.
+int64[] way_ids
+
+# Estimated travel time for the whole route, in seconds. Computed from the
+# length of every traversed way segment and its maximum allowed speed.
+float32 estimated_time
