@@ -1,0 +1,5 @@
+int8 mode
+int32 tracking_id
+string follow_type
+---
+bool success
