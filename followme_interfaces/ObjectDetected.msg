@@ -36,3 +36,4 @@ bool passable              # Indica si se puede pasar por encima (para obstácul
 uint16 point_count         # Puntos LiDAR que conforman el objeto
 int32 semantic_class       # -1=sin clasificar, 0..24=label YOLO (para obstáculos de terreno)
 string semantic_name       # nombre legible de la clase semántica (para obstáculos de terreno)
+float32 semantic_confidence # confianza de la clasificación semántica del lidar
